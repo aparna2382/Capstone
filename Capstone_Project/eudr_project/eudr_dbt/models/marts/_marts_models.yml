@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: mart_kpi_yearly
+    description: >
+      KPI dashboard and trend lines. One row per commodity, origin country and year
+      2020-2025, including projected years (value_type = PROJECTED) and gaps (NO DATA).
+    columns:
+      - name: commodity
+        data_tests: [not_null]
+      - name: trade_year
+        data_tests: [not_null]
+      - name: volume_value_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL', 'PROJECTED', 'NO DATA']
+
+  - name: mart_trade_flows
+    description: "Reported EU-27 flows aggregated for dashboard filters (no projections)."
+    columns:
+      - name: trade_year
+        data_tests: [not_null]
+      - name: destination_iso2
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_country')
+                field: iso2
+
+  - name: mart_sankey_flows
+    description: >
+      Sankey links. Step 1 = origin country -> commodity, step 2 = commodity -> EU destination.
+    columns:
+      - name: link_step
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [1, 2]
+                quote: false
+      - name: source_node
+        data_tests: [not_null]
+      - name: target_node
+        data_tests: [not_null]
+
+  - name: mart_geo_origins
+    description: "Map / globe view: EU import volume and deforestation by origin country and region."
+    columns:
+      - name: origin_country_iso3
+        data_tests: [not_null]
+
+  - name: mart_data_gaps
+    description: "Which data is missing per commodity, origin and year, and how much volume it affects."
+    columns:
+      - name: gap_label
+        data_tests: [not_null]

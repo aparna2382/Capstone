@@ -39,7 +39,7 @@ models:
       +materialized: view
       +schema: prep
     marts:
-      +materialized: view
+      +materialized: table
       +schema: marts
 seeds:
   eudr_dbt:
