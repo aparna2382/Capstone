@@ -1,0 +1,40 @@
+iso2,iso3,country,role,is_eu27
+AT,AUT,Austria,EU-27 destination,true
+BE,BEL,Belgium,EU-27 destination,true
+BG,BGR,Bulgaria,EU-27 destination,true
+HR,HRV,Croatia,EU-27 destination,true
+CY,CYP,Cyprus,EU-27 destination,true
+CZ,CZE,Czechia,EU-27 destination,true
+DK,DNK,Denmark,EU-27 destination,true
+EE,EST,Estonia,EU-27 destination,true
+FI,FIN,Finland,EU-27 destination,true
+FR,FRA,France,EU-27 destination,true
+DE,DEU,Germany,EU-27 destination,true
+GR,GRC,Greece,EU-27 destination,true
+HU,HUN,Hungary,EU-27 destination,true
+IE,IRL,Ireland,EU-27 destination,true
+IT,ITA,Italy,EU-27 destination,true
+LV,LVA,Latvia,EU-27 destination,true
+LT,LTU,Lithuania,EU-27 destination,true
+LU,LUX,Luxembourg,EU-27 destination,true
+MT,MLT,Malta,EU-27 destination,true
+NL,NLD,Netherlands,EU-27 destination,true
+PL,POL,Poland,EU-27 destination,true
+PT,PRT,Portugal,EU-27 destination,true
+RO,ROU,Romania,EU-27 destination,true
+SK,SVK,Slovakia,EU-27 destination,true
+SI,SVN,Slovenia,EU-27 destination,true
+ES,ESP,Spain,EU-27 destination,true
+SE,SWE,Sweden,EU-27 destination,true
+BR,BRA,Brazil,origin,false
+ID,IDN,Indonesia,origin,false
+CI,CIV,Côte d'Ivoire,origin,false
+PE,PER,Peru,origin,false
+CO,COL,Colombia,origin,false
+EC,ECU,Ecuador,origin,false
+MY,MYS,Malaysia,origin,false
+VN,VNM,Vietnam,origin,false
+TH,THA,Thailand,origin,false
+AU,AUS,Australia,origin,false
+ZA,ZAF,South Africa,origin,false
+XX,,Unknown,origin,false

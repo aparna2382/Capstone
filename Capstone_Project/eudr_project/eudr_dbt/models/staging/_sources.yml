@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Clean Trase data loaded from Python (EU-27 imports, trade years 2020+)"
+    schema: raw
+    tables:
+      - name: fact_trade_flows
+        description: "One row per Trase trade flow"
+        columns:
+          - name: flow_id
+            data_tests: [unique, not_null]

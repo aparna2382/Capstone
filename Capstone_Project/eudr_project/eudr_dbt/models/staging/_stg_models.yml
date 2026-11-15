@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_trade_flows
+    description: "Clean view of all EU-27 trade flows, one row per flow"
+    columns:
+      - name: flow_id
+        data_tests: [unique, not_null]
+      - name: commodity
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Beef', 'Cocoa', 'Coffee', 'Palm oil', 'Soy', 'Wood pulp']
+      - name: destination_iso2
+        description: "Must be an EU-27 country (UK excluded)"
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_country')
+                field: iso2
+      - name: trade_year
+        data_tests: [not_null]
+      - name: volume_t
+        data_tests: [not_null]
