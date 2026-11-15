@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: prep_coverage
+    description: >
+      One row per dataset (commodity + origin country) and trade year 2020-2025.
+      Shows which data exists: ACTUAL, ZERO EU TRADE (year covered, no EU shipments),
+      NO DATA (year not covered yet) or NOT IN DATASET (metric does not exist).
+    columns:
+      - name: source_dataset
+        data_tests: [not_null]
+      - name: trade_year
+        data_tests: [not_null]
+      - name: trade_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL', 'ZERO EU TRADE', 'NO DATA']
+      - name: deforestation_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL', 'ZERO EU TRADE', 'NO DATA', 'NOT IN DATASET']
+      - name: eudr_deforestation_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL', 'ZERO EU TRADE', 'NO DATA', 'NOT IN DATASET', 'NOT APPLICABLE (PRE-CUTOFF)']

@@ -1,0 +1,13 @@
+source_dataset,commodity,origin_country,origin_country_iso2,trase_first_year,trase_last_year,has_deforestation_exposure,deforestation_exposure_window_yrs,has_eudr_relevant_metric,origin_detail,notes
+brazil_beef_v2_2_2,Beef,Brazil,BR,2011,2023,true,5,false,municipality,2018 missing in source
+brazil_soy_v2_6_1,Soy,Brazil,BR,2004,2022,true,5,false,municipality,
+indonesia_palm_oil_v1_2_5,Palm oil,Indonesia,ID,2018,2024,true,10,true,kabupaten,
+indonesia_wood_pulp_v3_2_0,Wood pulp,Indonesia,ID,2015,2024,true,10,true,wood concession,EUDR metric assumed = clearing in trade year
+cote_divoire_cocoa_v1_2_0,Cocoa,Côte d'Ivoire,CI,2016,2024,true,15,false,department,deforestation only published for 2019-2021; annual metric has 4-year lag
+colombia_cocoa_v0_2_0,Cocoa,Colombia,CO,2017,2022,false,,false,country only,
+ecuador_cocoa_v0_0_0,Cocoa,Ecuador,EC,2017,2022,false,,false,country only,
+indonesia_cocoa_v0_1_0,Cocoa,Indonesia,ID,2020,2020,false,,false,country only,
+peru_cocoa_v0_1_0,Cocoa,Peru,PE,2013,2022,false,,false,country only,
+colombia_coffee_v1_0_3,Coffee,Colombia,CO,2012,2021,false,,false,country only,
+indonesia_coffee_v0_1_0,Coffee,Indonesia,ID,2020,2020,false,,false,country only,
+peru_coffee_v0_2_0,Coffee,Peru,PE,2013,2022,false,,false,country only,
