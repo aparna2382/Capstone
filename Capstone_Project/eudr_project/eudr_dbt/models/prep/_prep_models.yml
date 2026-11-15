@@ -26,3 +26,30 @@ models:
           - accepted_values:
               arguments:
                 values: ['ACTUAL', 'ZERO EU TRADE', 'NO DATA', 'NOT IN DATASET', 'NOT APPLICABLE (PRE-CUTOFF)']
+
+  - name: prep_projections
+    description: >
+      Same grid as prep_coverage, with the NO DATA years filled by labelled estimates.
+      Volume = average of the last 3 reported years (needs >= 3 reported years).
+      Deforestation = intensity ratio (ha per tonne, last reported years) x volume
+      (needs >= 2 reported years). Reported values are never changed.
+    columns:
+      - name: source_dataset
+        data_tests: [not_null]
+      - name: trade_year
+        data_tests: [not_null]
+      - name: volume_value_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL', 'PROJECTED', 'NO DATA']
+      - name: deforestation_value_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL', 'PROJECTED', 'NO DATA', 'NOT IN DATASET']
+      - name: eudr_value_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL', 'PROJECTED', 'NO DATA', 'NOT IN DATASET', 'NOT APPLICABLE (PRE-CUTOFF)']
