@@ -7,7 +7,8 @@ __pycache__/
 **/eudr_project/raw/
 **/eudr_project/clean/
 *.csv
-
+*.twbx
+*.hyper
 !**/eudr_dbt/seeds/*.csv
 
 # dbt generated files
