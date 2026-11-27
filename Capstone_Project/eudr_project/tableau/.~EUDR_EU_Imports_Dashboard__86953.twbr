@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20263.26.1022.1645                               -->
-<workbook _.fcp.WorkbookFingerprinting.true...author-id='b14901d9cbb5e8f6555a80007bcbb295e3eac5615a7e3b0a612b669af160922a' _.fcp.WorkbookFingerprinting.true...creator-author-id='302d30556bfeca20999b17e60b2a8601dc2b37dbaea02fdb8a8c868604e9af6a' _.fcp.WorkbookFingerprinting.true...creator-license-type='paid' _.fcp.WorkbookFingerprinting.true...creator-machine-id='a47437a22f4ef513efb3679e1e74af65e0711c98b0b5a38b8c22446af0f1b0fd' _.fcp.WorkbookFingerprinting.true...license-type='paid' _.fcp.WorkbookFingerprinting.true...machine-id='a47437a22f4ef513efb3679e1e74af65e0711c98b0b5a38b8c22446af0f1b0fd' locale='en' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='b14901d9cbb5e8f6555a80007bcbb295e3eac5615a7e3b0a612b669af160922a' _.fcp.WorkbookFingerprinting.true...creator-author-id='302d30556bfeca20999b17e60b2a8601dc2b37dbaea02fdb8a8c868604e9af6a' _.fcp.WorkbookFingerprinting.true...creator-license-type='paid' _.fcp.WorkbookFingerprinting.true...creator-machine-id='a47437a22f4ef513efb3679e1e74af65e0711c98b0b5a38b8c22446af0f1b0fd' _.fcp.WorkbookFingerprinting.true...license-type='paid' _.fcp.WorkbookFingerprinting.true...machine-id='a47437a22f4ef513efb3679e1e74af65e0711c98b0b5a38b8c22446af0f1b0fd' locale='en_US' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -4695,8 +4695,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='1' is-fixed='true' is-scaled='1' param='Image/EUDR_conclusion (1).png' type-v2='bitmap' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#444444' />
@@ -4810,8 +4810,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='76' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='83' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='82' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='9875' id='21' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='28'>Data Completeness Assessment</run>
@@ -4992,8 +4992,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='59' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='58' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='65' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='64' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='12166' id='7' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='26'>Exposure by Country and Commodity</run>
@@ -5127,8 +5127,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='67' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='66' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='73' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='72' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='13375' id='20' type-v2='text' w='98400' x='800' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='22'>European Union Deforestation Regulation(EUDR)</run>
@@ -5197,7 +5197,7 @@ trade reported, deforestation not published
               <zone h='94087' id='1' param='vert' removable='false' type-v2='layout-flow' w='98784' x='608' y='5083'>
                 <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98784' x='608' y='5083' />
                 <zone h='83610' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98784' x='608' y='15560'>
-                  <flipboard active-id='23' nav-type='caption' show-nav-arrows='true'>
+                  <flipboard active-id='7' nav-type='caption' show-nav-arrows='true'>
                     <story-points>
                       <story-point caption='Introduction to the Project' captured-sheet='EUDR_pic' id='1'>
                         <capturedDeltas>
@@ -5368,8 +5368,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='70' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='69' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='76' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='75' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone h='7023' id='11' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='26'>EU Import Flows</run>
@@ -5482,8 +5482,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='45' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='44' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='51' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='50' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='9625' id='3' type-v2='text' w='98400' x='800' y='1000'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='28'>Why  EUDR Matters?</run>
@@ -5612,8 +5612,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='950' minheight='950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='74' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='73' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='80' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='79' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='6857' id='12' type-v2='text' w='85333' x='667' y='1000'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='26'>EU Supply Countries-Origin to Deforestation Exposure</run>
@@ -5818,8 +5818,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='106' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='105' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='112' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='111' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='9375' id='45' type-v2='text' w='98666' x='667' y='1000'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='24'>EU Imports Volume vs. Deforestation Intensity (2020 - 2025)</run>
@@ -5937,8 +5937,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='19' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='25' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='1' is-fixed='true' is-scaled='1' param='Image/EUDR_key_questions_roadmap (1).png' type-v2='bitmap' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#444444' />
@@ -5986,8 +5986,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='1' is-fixed='true' is-scaled='1' param='Image/EUDR_thank_you (1).png' type-v2='bitmap' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#444444' />
@@ -6046,8 +6046,8 @@ trade reported, deforestation not published
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='45' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='51' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='12500' id='3' type-v2='text' w='98400' x='800' y='1000'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#59a14f' fontname='Tableau Bold' fontsize='36'>Data Pipeline</run>
